@@ -43,10 +43,10 @@ summary {
 
 h2 {
     font-size: 22px;
-    margin: 10px -20px;
+    margin: 0 -20px;
     padding: 10px 20px;
-    border-top: 1px dashed #9a9a9a;
-    border-bottom: 1px dashed #9a9a9a;
+    border-top: 1px dashed #b3d4fc;
+    border-bottom: 1px dashed #b3d4fc;
 }
 
 h1 {
@@ -121,7 +121,7 @@ section.post .wrap img {
 }
 
 section.post:not(:first-of-type) {
-    border-top: 1px dashed #9a9a9a;
+    border-top: 1px dashed #b3d4fc;
 }
 
 section.post header, section.post header a, section.post header h1 {
