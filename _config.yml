@@ -1,0 +1,12 @@
+name: Blog about many things
+url: "http://gevorg.me"
+permalink: "/:title/"
+paginate_path: "/:num/"
+timezone: "Asia/Yerevan"
+tag_page_layout: tag
+tag_page_dir: tag
+paginate: 5
+excerpt_separator: <!--more-->
+gems:
+  - jekyll-feed
+  - jekyll-paginate

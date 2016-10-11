@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="p:domain_verify" content="a748b59472c683b6712342982728ecd2"/>
 
-    
-    <title>Posts related to java</title>
-    <meta name="keywords" content="java, Gevorg, Harutuynyan" />
-    <meta name="description" content="Posts related to java"/>
-    
+    <title>{{ page.title }} - Gevorg Harutyunyan</title>
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}, Gevorg, Harutuynyan" />
+    <meta name="description" content="{{ page.title }}"/>
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
     <link href="/css/prism.css" rel="stylesheet" >
     <link href="/css/styles.css" rel="stylesheet" >
+
+    <script type='text/javascript' data-cfasync='false' src='//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js' data-shr-siteid='01757f1e456dfc4e4ffc292969c6c56e' async='async'></script>
 </head>
 <body>
 <script>
@@ -31,65 +31,11 @@
     <a href="/" class="main-header">
         <h1>About many things</h1>
     </a>
-    <div class="tag-header">
-    posts related to <strong>java</strong>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="post">
-    <header>
-        <a href="/How-I-fought-crossword-addiction/">How I fought crossword addiction</a>
-    </header>
-    <time>
-        06 May 2016
-    </time>
-    <summary>
-        
-        <p>It might sound funny, but I had an addiction to crossword solving few years ago. It started just from few
-<a href="http://scanword.ru">scanword.ru</a> contests and became a habit that was taking hours from me every day.</p>
-
-<p>As a true developer who was familiar with java technologies I decided to fight that habit using my skills.</p>
-
-
-        <a href="/How-I-fought-crossword-addiction/">read more</a>
-        
-    </summary>
-    <div class="tags">
-        
-        <span>
-            <a href="/tag/java">#java</a>
-        </span>
-        
-        <span>
-            <a href="/tag/selenium">#selenium</a>
-        </span>
-        
-    </div>
-</section>
-
-
-
-
-
-
-
-
+    {{ content }}
     <nav>
         <ul>
             <li><a href="/feed.xml" target="_blank">feed</a></li>
-            <li><a href="/GevorgHarutyunyanCV.pdf" target="_blank">cv</a></li>
+            <li><a href="https://docs.google.com/document/export?format=pdf&id=1KyD_95Lx8xq9dArdaxhwZxSKR-R2qLEbpBZgLS75UCs">cv</a></li>
         </ul>
     </nav>
 </div>

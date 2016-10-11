@@ -1,5 +1,5 @@
 /* Common styles */
-body {
+html, body {
     padding: 0;
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
@@ -35,17 +35,27 @@ time {
     font-size: 20px;
 }
 
+.time-div {
+    text-align: center;
+}
+
 summary {
     font-size: 20px;
     padding: 0;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 22px;
+    margin:0 -20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-weight: normal;
 }
 
 h1 {
     font-size: 32px;
+    text-align: center;
 }
 
 .highlighter-rouge {
@@ -79,11 +89,13 @@ a.main-header {
 }
 
 a.main-header h1 {
-    font-size: 36px;
+    font-size: 40px;
+    text-align: left;
     padding: 50px 0 0 20px;
+    margin: 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 680px) {
     a.main-header h1 {
         font-size: 26px;
         padding: 10px 0 0 10px;
@@ -125,12 +137,12 @@ section.post header, section.post header a, section.post header h1 {
 }
 
 section.post .tags {
-    margin: 10px 0;
-    text-align: left;
+    margin: -25px 0 15px;
+    text-align: right;
 }
 
 section.post .tags span {
-    font-size: 12px;
+    font-size: 14px;
     display: inline-block;
     margin: 5px 0 0;
     color: #268bd2;

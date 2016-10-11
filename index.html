@@ -1,228 +1,50 @@
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="p:domain_verify" content="a748b59472c683b6712342982728ecd2"/>
-
-    
-    <title>My blog about many things - Gevorg Harutyunyan</title>
-    <meta name="keywords" content="cv, tech, blog, java, javascript, Gevorg, Harutuynyan" />
-    <meta name="description" content="My blog about many things"/>
-    
-
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
-
-    <link href="/css/prism.css" rel="stylesheet" >
-    <link href="/css/styles.css" rel="stylesheet" >
-</head>
-<body>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-48892246-1', 'gevorg.me');
-    ga('send', 'pageview');
-
-</script>
-<div class="content">
-    <a href="/" class="main-header">
-        <h1>About many things</h1>
-    </a>
-    
+---
+layout: default
+title: My blog about many things
+tags:
+ - cv
+ - tech
+ - blog
+ - java
+ - javascript
+---
+{% for post in paginator.posts %}
 <section class="post">
     <header>
-        <a href="/Things-that-I-like-about-my-OnePlus2/">Things that I like about my OnePlus2</a>
+        <a href="{{ post.url }}">{{ post.title }}</a>
     </header>
     <time>
-        19 Jun 2016
+        {{ post.date | date_to_string }}
     </time>
     <summary>
-        
-            <p>As I <a href="http://gevorg.me/Things-that-I-don't-like-about-my-OnePlus2/">complained</a> about my <a href="https://oneplus.net/2">OnePlus2</a> few weeks ago, I think
-it would be fair to write few good things about it. I decided to write
-about it, because I finally got proper OS update and as you may 
-notice from title, update fixed many problems that I had before.</p>
-
-
-            <a href="/Things-that-I-like-about-my-OnePlus2/">read more</a>
-        
+        {% if post.excerpt %}
+            {{ post.excerpt }}
+            <a href="{{ post.url }}">read more</a>
+        {% endif %}
     </summary>
     <div class="tags">
-        
+        {% for tag in post.tags %}
         <span>
-            <a href="/tag/android">#android</a>
+            #{{ tag }}
         </span>
-        
+        {% endfor %}
     </div>
 </section>
-
-<section class="post">
-    <header>
-        <a href="/Getting-started-with-Koa-v2/">Getting started with Koa v2</a>
-    </header>
-    <time>
-        03 Jun 2016
-    </time>
-    <summary>
-        
-            <p>I just started using <a href="http://koajs.com">Koa - next generation web framework for node.js</a> 
-and want to share few good things about it.</p>
-
-
-            <a href="/Getting-started-with-Koa-v2/">read more</a>
-        
-    </summary>
-    <div class="tags">
-        
-        <span>
-            <a href="/tag/javascript">#javascript</a>
-        </span>
-        
-        <span>
-            <a href="/tag/node.js">#node.js</a>
-        </span>
-        
-        <span>
-            <a href="/tag/koa">#koa</a>
-        </span>
-        
-        <span>
-            <a href="/tag/es2015">#es2015</a>
-        </span>
-        
-    </div>
-</section>
-
-<section class="post">
-    <header>
-        <a href="/Template-literals-in-javascript/">Template literals in javascript</a>
-    </header>
-    <time>
-        22 May 2016
-    </time>
-    <summary>
-        
-            <p>I want to write about another new thing that I found in javascript.
-Those are called <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">Template literals</a> and look like this:</p>
-
-<pre><code class="language-javascript">`string text`
-
-`string text line 1
- string text line 2`
-
-`string text ${expression} string text`
-
-tag `string text ${expression} string text`
-</code></pre>
-
-<p>Let’s see where we can use them.</p>
-
-
-            <a href="/Template-literals-in-javascript/">read more</a>
-        
-    </summary>
-    <div class="tags">
-        
-        <span>
-            <a href="/tag/javascript">#javascript</a>
-        </span>
-        
-        <span>
-            <a href="/tag/es2015">#es2015</a>
-        </span>
-        
-    </div>
-</section>
-
-<section class="post">
-    <header>
-        <a href="/Javascript-generator-functions/">Javascript generator functions</a>
-    </header>
-    <time>
-        16 May 2016
-    </time>
-    <summary>
-        
-            <p>I just discovered for myself relatively new thing and that is generator function in javascript.</p>
-
-<pre><code class="language-javascript">function* name([param[, param[, ... param]]]) {
-   // statements
-}</code></pre>
-
-<p>In this post I will share few nice usages and many good things about them.</p>
-
-
-            <a href="/Javascript-generator-functions/">read more</a>
-        
-    </summary>
-    <div class="tags">
-        
-        <span>
-            <a href="/tag/javascript">#javascript</a>
-        </span>
-        
-        <span>
-            <a href="/tag/node.js">#node.js</a>
-        </span>
-        
-    </div>
-</section>
-
-<section class="post">
-    <header>
-        <a href="/Python-is-a-great-programming-language/">Python is a great programming language</a>
-    </header>
-    <time>
-        08 May 2016
-    </time>
-    <summary>
-        
-            <p>Recently I started learning <a href="https://www.python.org/">Python</a> programming language and loved it a lot.</p>
-
-<p>It is very rich, it is based on principles that I adore and if you know the right way of doing things, you can write
-great piece of software just with a few lines of code.</p>
-
-
-            <a href="/Python-is-a-great-programming-language/">read more</a>
-        
-    </summary>
-    <div class="tags">
-        
-        <span>
-            <a href="/tag/python">#python</a>
-        </span>
-        
-    </div>
-</section>
-
+{% endfor  %}
 
 <!-- Pagination links -->
-
+{% if paginator.previous_page or paginator.next_page %}
 <div class="pagination">
-    
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">newer</a>
+    {% else %}
     <span class="previous">newer</span>
-    
-    <span class="page_number ">1 of 2</span>
-    
-    <a href="/2/" class="next">older</a>
-    
+    {% endif %}
+    <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">older</a>
+    {% else %}
+    <span class="next ">older</span>
+    {% endif %}
 </div>
-
-    <nav>
-        <ul>
-            <li><a href="/feed.xml" target="_blank">feed</a></li>
-            <li><a href="/GevorgHarutyunyanCV.pdf" target="_blank">cv</a></li>
-        </ul>
-    </nav>
-</div>
-<footer>
-    It is transformed by <a target="_blank" href="https://github.com/jekyll/jekyll">Jekyll</a>
-    into a static site before I push <a target="_blank" href="https://github.com/gevorg/gevorg.github.io">this repository</a> to GitHub.
-</footer>
-
-<script src="/js/prism.js"></script>
-</body>
-</html>
+{% endif %}
