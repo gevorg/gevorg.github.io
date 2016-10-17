@@ -6,9 +6,10 @@ tags:
  - version
 ---
 In this post I would like to write about [Semantic Versioning][1]. 
-A lot of software in nowdays comes with version number with `X.Y.Z` pattern, where `X`,`Y` and `Z` are positive numbers.
 
-But do you know what for each of them stands and how does it change with each release?
+A lot of software has version number like `X.Y.Z`, where `X`,`Y` and `Z` are positive numbers.
+
+But do you know what for each of these numbers stands and how do they change with each release?
 
 <!--more-->
 
