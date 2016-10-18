@@ -13,7 +13,7 @@ But do you know what for each of these numbers stands and how do they change wit
 
 <!--more-->
 
-Let's start from describing each part of version number and them move to specification.
+Let's start from describing each part of version number and then move to specification.
 
 ## Structure
 
