@@ -7,7 +7,7 @@ tags:
 ---
 In this post I would like to write about [Semantic Versioning][1]. 
 
-Many programs today come with version number like `X.Y.Z`, where `X`,`Y` and `Z` are positive numbers.
+Many programs today come with version number like `X.Y.Z`, where `X`,`Y` and `Z` are non-negative numbers.
 
 But do you know what for each of these numbers stands and how do they change with each release?
 
