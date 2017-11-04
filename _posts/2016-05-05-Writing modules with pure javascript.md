@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing modules with poor javascript
+title: Writing modules with pure javascript
 social: true
 tags:
  - javascript
