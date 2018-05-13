@@ -26,12 +26,6 @@ sitemap: false
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>{{ site.url }}/birthday/</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>{{ site.url }}/flatback/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>weekly</changefreq>
