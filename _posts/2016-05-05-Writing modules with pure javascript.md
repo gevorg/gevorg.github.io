@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Writing modules with pure javascript
-social: true
 tags:
  - javascript
 ---
-Recently I was working on javascript project called [FooFiles](http://foofiles.com) and want to write about pattern
+Recently I was working on javascript project called [FooFiles](https://github.com/FooFiles/foofiles) and want to write about pattern
 that I used there.
 
 I will explain pattern and write a bit about positive and negative things that I found.
@@ -80,6 +79,6 @@ fire('EVENT_FROM_MODULE', {data: 'some important data'});
 
 ## Related links
 
-- [FooFiles is your very own personal file space on web](https://github.com/gevorg/foofiles)
+- [FooFiles is your very own personal file space on web](https://github.com/FooFiles/foofiles)
 - [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
 - [Immediately-invoked function expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Python is a great programming language
-social: true
 tags:
  - python
 ---

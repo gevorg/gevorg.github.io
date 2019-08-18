@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Things that I like about my OnePlus2
-social: true
 tags:
  - android
 ---

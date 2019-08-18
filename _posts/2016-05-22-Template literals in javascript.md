@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Template literals in javascript
-social: true
 tags:
  - javascript
  - es2015

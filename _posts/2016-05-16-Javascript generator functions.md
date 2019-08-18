@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Javascript generator functions
-social: true
 tags:
  - javascript
  - node.js

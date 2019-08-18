@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Why I love using GitHub Pages with Jekyll?
-social: true
 tags:
  - github
  - jekyll

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How I fought crossword addiction
-social: true
 tags:
  - java
  - selenium
@@ -15,7 +14,7 @@ As a true developer who was familiar with java technologies I decided to fight t
 ## Program for solving crosswords
 
 Yes, I created program that started solving crosswords for me and you know what? It started solving crosswords faster
-than I ever did. I called it [flatback](http://gevorg.me/flatback/) and published all sources on GitHub.
+than I ever did. I called it [flatback](http://gevorg.github.io/flatback/) and published all sources on GitHub.
 
 ## Demo
 
@@ -26,5 +25,5 @@ Below is program demo:
 </div>
 
 ## Related links
-- [flatback - crossword solver](http://gevorg.me/flatback/)
+- [flatback - crossword solver](http://gevorg.github.io/flatback/)
 - [Scanword - crossword website](https://scanword.ru)

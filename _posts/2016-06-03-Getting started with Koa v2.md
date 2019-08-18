@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Getting started with Koa v2
-social: true
 tags:
  - javascript
  - node.js

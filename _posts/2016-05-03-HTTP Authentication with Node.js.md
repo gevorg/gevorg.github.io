@@ -1,7 +1,6 @@
 ---
 layout: post
 title: HTTP Authentication with Node.js
-social: true
 tags:
  - node.js
 ---
@@ -10,7 +9,7 @@ HTTP Basic / Digest access authentication.
 
 Yes! I want to write about .htpasswd and .htdigest files and how can you use them in your Node.js application.
 <!--more-->
-In this article I will write about [http-auth](http://http-auth.info/) module that I created to support .htpasswd and
+In this article I will write about [http-auth](https://github.com/http-auth/http-auth/) module that I created to support .htpasswd and
 .htdigest files in Node.js applications.
 
 ## Installation
@@ -76,5 +75,4 @@ or
 
 ## Related links
 
-- [Node.js package for HTTP basic and digest access authentication.](http://http-auth.info)
 - [GitHub repository](https://github.com/http-auth/http-auth)

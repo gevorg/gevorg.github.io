@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How the semantic versioning works?
-social: true
 tags:
  - version
 ---

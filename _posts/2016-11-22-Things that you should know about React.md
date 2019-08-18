@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Things that you should know about React
-social: true
 tags:
  - javascript
  - react

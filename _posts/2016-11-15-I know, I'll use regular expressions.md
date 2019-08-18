@@ -1,7 +1,6 @@
 ---
 layout: post
 title: I know, I'll use regular expressions!
-social: true
 tags:
  - regexp
  - javascript
