@@ -1,5 +1,5 @@
 name: Blog about many things
-url: "http://gevorg.me"
+url: "http://gevorg.github.io"
 permalink: "/:title/"
 paginate_path: "/:num/"
 timezone: "Asia/Yerevan"
