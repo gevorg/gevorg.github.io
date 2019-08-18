@@ -7,8 +7,7 @@ html, body {
 }
 
 .content {
-    -webkit-box-shadow: 0 0 21px -7px rgba(0,0,0,0.75);
-    box-shadow: 0 0 21px -7px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px -7px rgba(0,0,0,0.75);
     margin: 0 auto;
     max-width: 760px;
     min-width: 360px;
