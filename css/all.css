@@ -22,6 +22,9 @@ body {
     color: #da2323;
     font-size: 26pt;
     flex-direction: row;
+    background: white;
+    border: 3px dashed;
+    border-radius: 15px;
 }
 
 .content span {
