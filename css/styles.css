@@ -15,12 +15,13 @@ html, body {
 }
 
 .content span {
-    padding-top: 29px;
+    padding: 29px;
 }
 
 @media (max-width: 800px) {
     .content {
       flex-direction: column;
+      text-align: center;
     }
 }
 
