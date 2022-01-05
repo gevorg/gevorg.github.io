@@ -1,16 +1,28 @@
-/* Common styles */
 html, body {
     padding: 0;
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    color: #303030;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 .content {
-    box-shadow: 0 0 10px -7px rgba(0,0,0,0.75);
-    margin: 0 auto;
+    margin: 25px auto;
     max-width: 760px;
     min-width: 360px;
+    display: flex;
+    color: #da2323;
+    font-size: 26pt;
+    flex-direction: row;
+}
+
+.content span {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+@media (max-width: 800px) {
+    .content {
+      flex-direction: column;
+    }
 }
 
 a {
@@ -22,177 +34,8 @@ a:hover {
     text-decoration: underline;
 }
 
-blockquote {
-    padding: 0 15px;
-    color: #777;
-    border-left: 4px solid #ddd;
-}
-
-time {
-    margin-bottom: 20px;
-    color: #9a9a9a;
-    font-size: 20px;
-    display: block;
-}
-
-summary {
-    font-size: 18px;
-    padding: 0;
-}
-
-h2 {
-    font-size: 22px;
-    margin: 0 -20px;
-    padding: 20px 20px 0;
-    border-top: 2px dashed #e1c7c6;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-.highlighter-rouge {
-    background: #f5f2f0;
-    font-size: 16px;
-    color: black;
-    padding: 5px;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-}
-
-/* YouTube Responsive CSS for HubSpot */
-.hs-responsive-embed-youtube {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-}
-
-.hs-responsive-embed-youtube iframe {
-    position: absolute;
-    width: 100%!important;
-    height: 100%!important;
-}
-
-/* Header part */
-a.main-header {
-    color: #303030;
-    margin: 0;
-    text-align: left;
-    display: block;
-    height: 150px;
-    background: #e1c7c6;
-}
-
-a.main-header h1 {
-    font-size: 40px;
-    text-align: left;
-    padding: 50px 0 0 20px;
-    margin: 0;
-}
-
-@media (max-width: 680px) {
-    a.main-header h1 {
-        font-size: 26px;
-        padding: 10px 0 0 10px;
-    }
-}
-
-a.main-header:hover {
-    text-decoration: none;
-}
-
-/* Post styles */
-section.post {
-    padding: 20px;
-    font-size: 18px;
-}
-
-section.post p {
-    line-height: 26px;
-}
-
-section.post pre, section.post .wrap {
-    margin:0 -20px;
-    font-size: 16px;
-}
-
-section.post .wrap img {
-    width: calc(100% + 40px);
-}
-
-section.post:not(:first-of-type) {
-    border-top: 2px dashed #e1c7c6;
-}
-
-section.post header, section.post header a, section.post header h1 {
-    margin: 10px 0;
-    font-size: 30px;
-    font-weight: bold;
-    color: #303030;
-}
-
-section.post .tags {
-    margin: -25px 0 15px;
-    text-align: right;
-}
-
-section.post .tags span {
-    font-size: 14px;
-    display: inline-block;
-    margin: 5px 0 0;
-    color: #9a9a9a;
-}
-
-section.post ul li {
-    margin: 10px 0;
-}
-
-
-/* Paging */
-.pagination {
-    margin: 0 0 15px;
-    text-align: center;
-    font-size: 24px;
-    color: #9a9a9a;
-}
-
-.pagination .page_number {
-    color: #303030;
-}
-
-/* Navigation styles */
-nav {
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-nav li {
-    display: inline-block;
-    float: right;
-}
-
-nav li a {
-    display: inline-block;
-    color: white;
-    padding: 10px ;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav li a:hover {
-    background-color: #555;
-    color: white;
-    text-decoration: none;
-}
-
-/* Footer styles */
 footer {
     padding: 10px;
     text-align: center;
-    font-size: 13px;
+    font-size: 16pt;
 }
