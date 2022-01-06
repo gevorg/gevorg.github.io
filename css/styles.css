@@ -18,21 +18,30 @@ body {
     margin: 25px auto;
     max-width: 760px;
     min-width: 360px;
-    display: flex;
     color: #da2323;
     font-size: 26pt;
-    flex-direction: row;
     background: white;
     border: 3px dashed;
     border-radius: 15px;
 }
 
-.content span {
+.content iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 0 0 15px 15px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid span {
     padding: 29px;
 }
 
 @media (max-width: 800px) {
-    .content {
+    .grid {
       flex-direction: column;
       text-align: center;
     }
